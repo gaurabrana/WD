@@ -1,0 +1,19 @@
+
+img{
+	width: 20% ;
+	height: 20% ;
+	margin-left: 20%;
+	}
+p,h1{
+	color: purple;
+	font-size: 30px;
+	text-align: center;
+	border: 5px solid #4286f5;
+}
+#hello{
+	color: green;
+	font-size: 16px;
+	text-align: center;
+	border: 5px solid yellow;
+	font-family: verdana;
+}

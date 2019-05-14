@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Walter+Turncoat|Doppio+One');
+*{
+	 padding: 0px;
+	 margin: 0px;
+	 box-sizing: border-box;
+	}
+	body{
+		background:url(../images/backgrounds/music.png);
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+p{
+	font-family: 'Doppie One', sans-serif;
+	color:silver;text-shadow:1px 1px 1px black;
+}
+
+	.nav{
+	 background: black;
+	 height: 70px;
+	 display: flex;
+	 flex-wrap:wrap;
+	 align-items: center;
+	}
+	.nav-title a{
+		text-decoration: none;
+		color:#1995DD;
+		 background: black;
+	}
+
+	.nav-title {
+
+	font-family: 'Merienda One', cursive;
+	 width: 30%;
+
+	 padding: 12px 40px;
+	 text-align: center;
+
+	 text-shadow: 1px 1px 2px white;
+	}
+.nav-title a:hover{
+	color:white;
+	text-decoration: overline;
+	text-decoration-color: yellow;
+}
+
+	.nav-menu{
+	 width: 70%;
+	}
+
+	.nav-menu ul{
+	 display: flex;
+	 justify-content: flex-end;
+	}
+
+	.nav-menu ul a{
+		font-family: 'Walter Turncoat', cursive;
+	 padding: 10px 20px;
+	 color: #ccc;
+	 font-size: 24px;
+	 list-style-type: none;
+	 cursor: pointer;
+	 	 text-decoration: none;
+		 color:#F4F6F6;
+	}
+
+	.nav-menu ul a:hover{
+	 color:#959C8F ;
+	 font-weight: bold;
+	 text-decoration: line-through;
+ 	text-decoration-color: black  ;
+	}
+.nav-menu .active{
+	color:yellow;
+	text-shadow: 1px 1px 1px black;
+}
+	 /*style for responsive menu*/
+
+	 @media screen and (max-width:1000px){
+		 .nav{
+			 height: auto;
+		 }
+		 .nav .nav-title{
+			 text-align: left;
+			 width: 100%;
+		 }
+
+		 .nav .nav-menu{
+			 width: 100%;
+		 }
+		 .nav .nav-menu ul{
+			 justify-content: space-around;
+		 }
+
+		 .nav .nav-menu ul a{
+			 width: 20%;
+			 padding: 10px 0px;
+			 text-align: center;
+			 font-size: 16px;
+		 }
+	 }
+	 @media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+.container{
+	width:480px;
+}
+}
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px){
+.container{
+width:768px;
+}
+.container p,.container h1{
+	width:70%;
+}
+}
+.container{
+	width: 1200px;
+	margin-left: 10.5%;
+	margin-top: 0.2%;
+	padding: 5px;
+	display:flex;
+	flex-direction: column;
+}
+.container h1{
+font-family: 'Merienda One', cursive;
+text-decoration: underline;
+padding-left: 5px;
+font-size: 45px;
+color: yellow;
+text-shadow: 1px 1px 1px black;
+}
+.container a:visited{
+	color:yellow;
+}
+.container a:hover{
+	color: white;
+}
+.container p{
+	text-align: justify;
+	letter-spacing: 1.3px;
+	}
+	ol{
+		font-size: 14px;
+		font-family: 'Doppie One', sans-serif;
+		color:silver;text-shadow:1px 1px 1px black;
+	}
+	h2{
+		margin-bottom: 5px;
+		color: yellow;
+		text-shadow: 1px 1px 1px black;
+		text-decoration: underline;
+	}
+.container img{
+	float: left;
+	margin-right: 10px;
+}
+.item1{
+	height: 260px;
+}
+.item2{
+	display: flex;
+		height: 300px;
+}
+.subitem img{
+	width:210px;
+	height: 210px;
+	float:left;
+	margin-right:33px;
+	margin-bottom: 40px;
+}
+.subitem{
+	flex-grow: 1;
+	margin: 5px;
+}

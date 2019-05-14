@@ -1,0 +1,144 @@
+.first p {
+  color: red;
+}
+
+div {
+  color: blue;
+}
+.base-box p{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.3));
+  padding: 3px 3px 3px 7px;
+}
+
+.important {
+  font-weight: bold;
+}
+
+.editor-note {
+  background-color: #9999ff;
+  border-left: 6px solid #333399;
+}
+
+.warning {
+  background-color: #ff9999;
+  border-left: 6px solid #993333;
+}
+#great p {
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+#first {
+  background-color: goldenrod;
+}
+
+#second {
+  background-color: silver;
+}
+
+#third {
+  background-color: #CD7F32;
+}
+
+[data-vegetable] {
+  color: green;
+}
+
+[data-vegetable="liquid"] {
+  background-color: goldenrod;
+}
+
+[data-vegetable~="spicy"] {
+  color: red;
+}
+li[lang="en-GB"] {
+   background: url("http://mdn.github.io/learning-area/css/introduction-to-css/css-selectors/en-GB.png") 5px center no-repeat;
+}
+
+li[lang="de"] {
+   background: url("http://mdn.github.io/learning-area/css/introduction-to-css/css-selectors/de.png") 5px center no-repeat;
+}
+
+li[lang="es"] {
+   background: url("http://mdn.github.io/learning-area/css/introduction-to-css/css-selectors/es.png") 5px center no-repeat;
+}
+
+li[data-perf*="inc"] {
+   background-color: rgba(0,255,0,0.7);
+}
+
+li[data-perf*="same"] {
+   background-color: rgba(0,0,255,0.5);
+}
+
+li[data-perf*="dec"] {
+   background-color: rgba(255,0,0,0.7);
+}
+
+li[data-perf*="pro"] {
+   font-weight: bold;
+}
+
+li[data-perf*="rel"] {
+   font-style: italic;
+   color: #666;
+}
+
+ol {
+   padding: 0;
+}
+
+li {
+   padding: 3px 3px 3px 34px;
+   margin-bottom: 5px;
+   list-style-position: inside;
+}
+
+a {
+  color: blue;
+  font-weight: bold;
+}
+
+a:visited {
+  color: blue;
+}
+a:hover,a:active,a:focus {
+  color: darkred;
+  text-decoration: none;
+}
+ul {
+  padding: 0;
+}
+
+.seudo li {
+  padding: 3px;
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+
+.seudo a {
+  text-decoration: none;
+  color: black;
+}
+
+.seudo a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.seudo:nth-of-type(even) {
+  background-color: #ccc;
+}
+.fancy::first-line {
+  font-weight: bold;
+}
+
+.fancy::first-letter {
+  font-size: 3em;
+  border: 1px solid black;
+  background: red;
+  display: block;
+  float: left;
+  padding: 2px;
+  margin-right: 4px;
+}

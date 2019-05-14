@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Walter+Turncoat|Doppio+One');
+*{
+	 padding: 0px;
+	 margin: 0px;
+	 box-sizing: border-box;
+	}
+p{
+	font-family: 'Doppie One', sans-serif;
+}
+body{
+	background-image: url(../images/backgrounds/art.jpeg);
+}
+	.nav{
+	 background: black;
+	 height: 70px;
+	 display: flex;
+	 flex-wrap:wrap;
+	 align-items: center;
+	}
+	.nav-title a{
+		text-decoration: none;
+		color:#1995DD;
+		 background: black;
+	}
+
+	.nav-title {
+
+	font-family: 'Merienda One', cursive;
+	 width: 30%;
+
+	 padding: 12px 40px;
+	 text-align: center;
+
+	 text-shadow: 1px 1px 2px white;
+	}
+.nav-title a:hover{
+	color:white;
+	text-decoration: overline;
+	text-decoration-color: yellow;
+}
+
+	.nav-menu{
+	 width: 70%;
+	}
+
+	.nav-menu ul{
+	 display: flex;
+	 justify-content: flex-end;
+	}
+
+	.nav-menu ul a{
+		font-family: 'Walter Turncoat', cursive;
+	 padding: 10px 20px;
+	 color: #ccc;
+	 font-size: 24px;
+	 list-style-type: none;
+	 cursor: pointer;
+	 	 text-decoration: none;
+		 color:#F4F6F6;
+	}
+
+	.nav-menu ul a:hover{
+	 color:#959C8F ;
+	 font-weight: bold;
+	 text-decoration: line-through;
+ 	text-decoration-color: black  ;
+	}
+.nav-menu .active{
+	color:yellow;
+	text-shadow: 1px 1px 1px black;
+}
+	 /*style for responsive menu*/
+
+	 @media screen and (max-width:1000px){
+		 .nav{
+			 height: auto;
+		 }
+		 .nav .nav-title{
+			 text-align: left;
+			 width: 100%;
+		 }
+
+		 .nav .nav-menu{
+			 width: 100%;
+		 }
+		 .nav .nav-menu ul{
+			 justify-content: space-around;
+		 }
+
+		 .nav .nav-menu ul a{
+			 width: 20%;
+			 padding: 10px 0px;
+			 text-align: center;
+			 font-size: 16px;
+		 }
+	 }
+	 .grid {
+	 padding: 20px;
+   display: grid;
+   grid-template-columns: repeat(3, minmax(200px, 1fr));
+   grid-gap: 20px;
+	 align-items: center;
+   }
+ .grid img {
+   border-radius:5%;
+   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+   max-width: 100%;
+ }
+ .imgbox:hover img{
+	 filter: blur(1px);
+ 	transform: scale(1.07);
+	transition: .3s;
+ }
+.imgbox em{
+	width: 430px;
+	font-weight: bold;
+	color:yellow;
+	text-shadow: 1px 1px 1px black;
+	font-size: 25px;
+	text-align: center;
+	margin-left: 15px;
+}
+.grid,.imgbox{
+	transition: 2s;
+	opacity: 0;
+}
+.grid:hover,.imgbox:hover{
+	transition: 1.5s;
+	opacity: 1;
+}
+.grid:hover{
+	transition: 2s;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/backgrounds/art2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}

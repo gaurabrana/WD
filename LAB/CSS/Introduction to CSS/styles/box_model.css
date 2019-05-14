@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+h1,h3{
+	margin-left: 10px;
+}
+#wrapper > * {
+  padding: 20px;
+  font-size: 20px;
+  border: 20px solid rgba(0,0,0,0.5);
+}
+
+/* specific boxes */
+
+#wrapper header, #wrapper footer {
+  background-color: blue;
+  color: white;
+}
+
+#wrapper main {
+  background-color: yellow;
+  margin: 2%;
+  padding: 2%;
+  border: 60px solid rgba(0,0,0,0.5);
+  width: 60%;
+}
+
+#wrapper footer {
+  margin-top: 20px;
+}
+.hey p {
+  width  : 400px;
+  height : 2.5em;
+  padding: 1em 1em 1em 1em;
+  border : 1px solid black;
+}
+
+.autoscroll { overflow: auto;    }
+.clipped    { overflow: hidden;  }
+.default    { overflow: visible; }
+
+#last p {
+  padding : 1em;
+  border  : 1px solid black;
+}
+
+span {
+  border  : 1px solid green;
+  /* That makes the box visible, regardless of its type */
+  background-color: yellow;
+}
+
+.inline       { display: inline;       }
+.block        { display: block;        }
+.inline-block { display: inline-block; }

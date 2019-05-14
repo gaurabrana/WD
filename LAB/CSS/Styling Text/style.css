@@ -1,0 +1,51 @@
+html {
+        font-size: 10px;
+      }
+      h1 {
+        font-size: 3rem;
+        text-transform: capitalize;
+        text-shadow: -1px -1px 1px #aaa,
+                     0px 2px 1px rgba(0,0,0,0.5),
+                     2px 2px 2px rgba(0,0,0,0.7),
+                     0px 0px 3px rgba(0,0,0,0.4);
+        text-align: center;
+      }
+      h1 + #one p {
+        font-weight: bold;
+      }
+     #one p::first-line {
+        letter-spacing: 2px;
+        word-spacing: 4px;
+      }
+       #one p {
+        font-size: 1.4rem;
+        color: red;
+        font-family: Helvetica, Arial, sans-serif;
+        line-height: 1.5;
+      }
+	  h2 {
+  font-size: 2rem;
+  margin-left:10px;
+}
+ul,ol,dl,p {
+  font-size: 1.8rem;
+}
+
+li, p {
+  line-height: 1.5;
+}
+
+/* Description list styles */
+
+
+dd, dt {
+  line-height: 1.5;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 1.5rem;
+}

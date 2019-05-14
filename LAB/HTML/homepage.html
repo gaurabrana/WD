@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Lab Exercise Links</title>
+	<style>
+body{
+  background: #c4c7cb;
+  background-image: -webkit-radial-gradient(cover, #FFF,#D1D1D1	);
+  background-image: -moz-radial-gradient(cover, #e8eaec, #a4a8ae);
+  background-image: -o-radial-gradient(cover, #e8eaec, #a4a8ae);
+  background-image: radial-gradient(cover, #e8eaec, #a4a8ae)
+}
+
+html{
+  min-height:100%;
+}
+
+.Navigation{
+	height: 50px;
+    padding:0;
+	margin-left: 20%;
+	position: fixed;
+	
+}
+
+.Navigation li 	{
+	height: auto;
+	width: 250px;
+	float: left;
+	text-align: center;
+	list-style: none;
+	font:18px "Bonveno", "Century Gothic";
+	padding: 0;
+	margin: 0;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 0 rgba(255,255,255, .9) inset, 0 1px 3px rgba(0,0,0, .1);
+	border-radius: 3px;
+  	margin-left:10px;
+	font-weight:bold;
+}
+
+.Navigation a{							
+	padding:13px;
+	text-decoration: none; 
+	color:#333;
+	text-shadow: 0 1px #fff;
+	display: block;
+}
+.Navigation li ul{
+	display: none;
+	height: auto;									
+	margin-left: -11px;
+	padding: 0;		
+}				
+
+.Navigation li:hover ul{
+	display: block;
+}
+
+.navbar li ul li {
+	background-color:#eee;
+  	border: 1px solid #ccc;
+} 
+
+.Navigation li:hover, a:hover {
+	 background: #EBF5FB  ;
+} 
+.great li{
+	background:#D5DBDB  ;
+}
+	</style>
+</head>
+<body>
+	<div id="Navigation">
+			<ul class="Navigation">
+           		<li><a href="#">Introduction to HTML</a>
+				<ul class="great">
+				   		<li><a href="Introduction to HTML\index.html" target="_blank">My Test Page</a>
+						<li><a href="Introduction to HTML\html_text_fundamental.html"target="_blank">HTML Fundamentals</a></li>
+				   		<li><a href="Introduction to HTML\meta_example.html"target="_blank">Meta Tag Examples</a></li>
+                   		<li><a href="Introduction to HTML\creating_hyperlink.html"target="_blank">Creating Hyperlink</a></li>
+                   		<li><a href="Introduction to HTML\website structure.html"target="_blank">Website Structure</a></li>
+						<li><a href="Introduction to HTML\advanced_text_formating.html"target="_blank">Advanced Text Formatting</a></li>
+					</ul>   
+				</li>
+				<li><a href="#">Multimedia and Embedding</a>
+				<ul class="great">
+				   		<li><a href="Multimedia and Embedding\Images in Html.html"target="_blank">Adding Images in Html</a></li>
+				   		<li><a href="Multimedia and Embedding\audio and video content.html"target="_blank">Audio and Video Content</a></li>
+				   		<li><a href="Multimedia and Embedding\From Object to Iframe.html"target="_blank">From Object to Iframe</a></li>
+                   		<li><a href="Multimedia and Embedding\srcset-resolutions.html"target="_blank">Srcset-Resolutions</a></li>
+						<li><a href="Multimedia and Embedding\adding vector graphics to web.html"target="_blank">Adding Vector Graphics to the Web</a></li>
+                   		<li><a href="Multimedia and Embedding\Responsive Images.html"target="_blank">Responsive Images</a></li>
+					</ul>   
+				</li>
+            	<li><a href="#">Tables</a>
+					<ul class="great">
+				   		<li><a href="Tables\blank-template.html"target="_blank">Table Basics</a></li>
+					</ul>         
+			 	</li>
+				<li><a href="#">Forms</a>
+					<ul class="great">
+				   		<li><a href="Forms\First Form.html"target="_blank">First HTML Form</a></li>
+				   		<li><a href="Forms\HTML Form.html"target="_blank">Structure HTML Form</a></li>
+				   		<li><a href="Forms\The native form widgets.html"target="_blank">Native Form Widgets</a></li>
+                   		<li><a href="Forms\Sending Form Data.html"target="_blank">Sending Form Data</a></li>
+						<li><a href="Forms\Form Data Validation.html"target="_blank">Form Validation</a></li>
+                   		<li><a href="Forms\Custom Form Widgets.html"target="_blank">Custom Form Widgets</a></li>
+                 		<li><a href="Forms\stylish html form.html"target="_blank">Stylish HTML Forms</a></li>
+					</ul>         
+			 	</li>
+            </ul>
+        </div>            
+</body>
+</html>

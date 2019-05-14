@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Css Lab Exercise Links</title>
+	<style>
+body{
+  background: #c4c7cb;
+  background-image: -webkit-radial-gradient(cover, #FFF,#D1D1D1	);
+  background-image: -moz-radial-gradient(cover, #e8eaec, #a4a8ae);
+  background-image: -o-radial-gradient(cover, #e8eaec, #a4a8ae);
+  background-image: radial-gradient(cover, #e8eaec, #a4a8ae)
+}
+
+html{
+  min-height:100%;
+}
+
+.Navigation{
+	height: 50px;
+    padding:0;
+	margin-left: 20%;
+	position: fixed;
+	
+}
+
+.Navigation li 	{
+	height: auto;
+	width: 250px;
+	float: left;
+	text-align: center;
+	list-style: none;
+	font:18px "Bonveno", "Century Gothic";
+	padding: 0;
+	margin: 0;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 0 rgba(255,255,255, .9) inset, 0 1px 3px rgba(0,0,0, .1);
+	border-radius: 3px;
+  	margin-left:10px;
+	font-weight:bold;
+}
+
+.Navigation a{							
+	padding:13px;
+	text-decoration: none; 
+	color:#333;
+	text-shadow: 0 1px #fff;
+	display: block;
+}
+.Navigation li ul{
+	display: none;
+	height: auto;									
+	margin-left: -11px;
+	padding: 0;		
+}				
+
+.Navigation li:hover ul{
+	display: block;
+}
+
+.navbar li ul li {
+	background-color:#eee;
+  	border: 1px solid #ccc;
+} 
+
+.Navigation li:hover, a:hover {
+	 background: #EBF5FB  ;
+} 
+.great li{
+	background:#D5DBDB  ;
+}
+	</style>
+</head>
+<body>
+	<div id="Navigation">
+			<ul class="Navigation">
+           		<li><a href="#">Introduction to CSS</a>
+				<ul class="great">
+				   		<li><a href="Introduction to CSS\How CSS Works.html" target="_blank">My Test Page</a>
+						<li><a href="Introduction to CSS\Selectors.html"target="_blank">Selectors Introduction</a></li>
+				   		<li><a href="Introduction to CSS\Combinators and Multiple Selectors.html"target="_blank">Combinators and Multiple Selectors</a></li>
+                   		<li><a href="Introduction to CSS\css values and units.html"target="_blank">Css Values and Units</a></li>
+                   		<li><a href="Introduction to CSS\cascade and inheritance.html"target="_blank">Cascade and Inheritance</a></li>
+						<li><a href="Introduction to CSS\box model.html"target="_blank">Box Model</a></li>
+					</ul>   
+				</li>
+				<li><a href="#">Styling Text</a>
+				<ul class="great">
+				   		<li><a href="Styling Text\Fundamental text and font styling.html"target="_blank">Fundamental Text and Font Styling</a></li>
+				   		<li><a href="Styling Text\styling links.html"target="_blank">Styling Links</a></li>
+				   		</ul>   
+				</li>
+            	<li><a href="#">Styling Boxes</a>
+					<ul class="great">
+				   		<li><a href="Styling Boxes\styling borders.html"target="_blank">Styling Borders</a></li>
+						<li><a href="Styling Boxes\styling tables.html"target="_blank">Styling Tables</a></li>
+						<li><a href="Styling Boxes\Advanced box effects.html"target="_blank">Advanced Box Effects</a></li>
+						<li><a href="Styling Boxes\Changing Background.html"target="_blank">Changing Background</a></li>
+					</ul>         
+			 	</li>
+				<li><a href="#">Css Layout</a>
+					<ul class="great">
+				   		<li><a href="Css Layout\Introduction to css layout.html"target="_blank">Introduction to Css Layout</a></li>
+				   		<li><a href="Css Layout\Flexbox.html"target="_blank">Flexbox</a></li>
+				   		<li><a href="Css Layout\wrapping.html"target="_blank">Wrapping</a></li>
+						<li><a href="Css Layout\nested flexbox.html"target="_blank">Nested Flexbox</a></li>
+						<li><a href="Css Layout\grid.html"target="_blank">Grids</a></li>
+                   		<li><a href="Css Layout\floats.html"target="_blank">Floats</a></li>
+						<li><a href="Css Layout\positioning.html"target="_blank">Positioning</a></li>
+                   		<li><a href="Css Layout\multiple column.html"target="_blank">Multiple Column</a></li>
+                 		
+					</ul>         
+			 	</li>
+            </ul>
+        </div>            
+</body>
+</html>

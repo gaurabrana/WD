@@ -1,0 +1,226 @@
+ html {
+      font-family: sans-serif;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    aside {
+      max-width: 500px;
+      padding: 10px;
+      background-color: red;
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.25));
+    }  
+
+    .simple {
+      box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+    }
+
+    .multiple {
+      box-shadow: 1px 1px 1px black,
+                  2px 2px 1px black,
+                  3px 3px 1px red,
+                  4px 4px 1px red,
+                  5px 5px 1px black,
+                  6px 6px 1px black;
+    }  
+
+    button {
+      width: 150px;
+      font-size: 1.1rem;
+      line-height: 2;
+      border-radius: 10px;
+      border: none;
+      background-image: linear-gradient(to bottom right, #777, #ddd);
+      box-shadow: 1px 1px 1px black,
+                  inset 2px 3px 5px rgba(0,0,0,0.3),
+                  inset -2px -3px 5px rgba(255,255,255,0.5);
+    }
+
+    button:focus, button:hover {
+      background-image: linear-gradient(to bottom right, #888, #eee);
+    }
+
+    button:active {
+      box-shadow: inset 2px 2px 1px black,
+                  inset 2px 3px 5px rgba(0,0,0,0.3),
+                  inset -2px -3px 5px rgba(255,255,255,0.5);
+    }
+	
+	figure {
+      transition: 1s all;
+      display: inline-block;
+      position: relative;
+    }
+    figcaption {
+      position: absolute;
+      left: 0;
+      bottom: 50px;
+      text-shadow: 1px 1px 1px white,
+                   2px 2px 1px white;
+      font-size: 1.3rem;
+      letter-spacing: 2px
+    }
+    .blur:hover {
+      -webkit-filter: blur(5px);
+      filter: blur(5px);
+    }
+    .brightness:hover {
+      -webkit-filter: brightness(0.6);
+      filter: brightness(0.6);
+    }
+    .shadow:hover {
+      -webkit-filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.7));
+      filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.7));
+    }
+    .gray:hover {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+    }
+    .sepia:hover {
+      -webkit-filter: sepia(100%);
+      filter: sepia(100%);
+    }
+    .invert:hover {
+      -webkit-filter: invert(100%);
+      filter: invert(100%);
+    }
+    .saturate:hover {
+      -webkit-filter: saturate(300%);
+      filter: saturate(300%);
+    }
+    .opacity:hover {
+      -webkit-filter: opacity(0%);
+      filter: opacity(0%);
+    }
+    .hue-rotate:hover {
+      -webkit-filter: hue-rotate(210deg);
+      filter: hue-rotate(210deg);
+	  }
+	  div {
+      width: 280px;
+      height: 130px;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    article {
+      width: 330px;
+      height: 180px;
+      margin: 10px;
+      position: relative;
+
+    }
+
+    body > div, article div:first-child {
+      background: url(colorful-heart.png) no-repeat center 20px;
+      background-color: green;
+    }
+
+    body > div, article {
+      display: inline-block;
+    }
+
+    article div:first-child {
+      position: absolute;
+      top: 10px;
+      left: 0;
+    }
+
+    article div:last-child {
+      background-color: purple;
+      position: absolute;
+      bottom: -10px;
+      right: 0;
+      z-index: -1;
+    }
+
+
+    .multiply {
+      background-blend-mode: multiply;
+    }
+
+    .multiply-mix {
+      mix-blend-mode: multiply;
+    }
+
+    .screen {
+      background-blend-mode: screen;
+    }
+
+    .screen-mix {
+      mix-blend-mode: screen;
+    }
+
+    .overlay {
+      background-blend-mode: overlay;
+    }
+
+    .overlay-mix {
+      mix-blend-mode: overlay;
+    }
+
+    .darken {
+      background-blend-mode: darken;
+    }
+
+    .darken-mix {
+      mix-blend-mode: darken;
+    }
+
+    .lighten {
+      background-blend-mode: lighten;
+    }
+
+    .lighten-mix {
+      mix-blend-mode: lighten;
+    }
+
+    .color-dodge {
+      background-blend-mode: color-dodge;
+    }
+
+    .color-dodge-mix {
+      mix-blend-mode: color-dodge;
+    }
+
+    .color-burn {
+      background-blend-mode: color-burn;
+    }
+
+    .color-burn-mix {
+      mix-blend-mode: color-burn;
+    }
+
+    .hard-light {
+      background-blend-mode: hard-light;
+    }
+
+    .hard-light-mix {
+      mix-blend-mode: hard-light;
+    }
+
+    .soft-light {
+      background-blend-mode: soft-light;
+    }
+
+    .soft-light-mix {
+      mix-blend-mode: soft-light;
+    }
+
+    .difference {
+      background-blend-mode: difference;
+    }
+
+    .difference-mix {
+      mix-blend-mode: difference;
+    }
+
+    .hue {
+      background-blend-mode: hue;
+    }
+
+    .hue-mix {
+      mix-blend-mode: hue;
+    }

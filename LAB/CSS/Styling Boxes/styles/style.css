@@ -1,0 +1,25 @@
+p{
+  font-family: sans-serif;
+  padding: 20px;
+  /* background properties */
+  background-color: yellow;
+}
+p.one{
+  background-image: url(https://mdn.mozillademos.org/files/13026/fire-ball-icon.png);
+}
+p.two{
+	background-image: url(https://mdn.mozillademos.org/files/13026/fire-ball-icon.png);	
+	 background-repeat: no-repeat;
+}
+p.third{
+background-image: url(https://mdn.mozillademos.org/files/13026/fire-ball-icon.png);
+  background-repeat: no-repeat;
+  background-position: 99% center;
+  }
+  p.fourth {
+  background-image: linear-gradient(to bottom, yellow, #dddd00 50%, orange);
+}
+p.fifth{
+background: url(https://mdn.mozillademos.org/files/13026/fire-ball-icon.png) no-repeat 99% center,
+              linear-gradient(to bottom, yellow, #dddd00 50%, orange);
+			  }

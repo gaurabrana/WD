@@ -1,0 +1,75 @@
+p {
+  font-size: 1.5rem;
+  
+}
+body {
+  width: 600px;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+
+#one p {
+  line-height: 1.4;
+}
+
+#one a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+#one a:link {
+  color: #265301;
+}
+
+#one a:visited {
+  color: #437A16;
+}
+
+#one a:focus {
+  border-bottom: 1px solid;
+  background: #BAE498;
+}
+
+#one a:hover {
+  border-bottom: 1px solid;     
+  background: #CDFEAA;
+}
+
+#one a:active {
+  background: #265301;
+  color: #CDFEAA;
+}
+a[href*="http"] {
+  background: url('https://mdn.mozillademos.org/files/12982/external-link-52.png') no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+
+#third ul {
+  padding: 0;
+
+}
+
+#third a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 22.5%;
+  text-align: center;
+  line-height: 3;
+  color: black;
+}
+
+#third a:link, #third a:visited, #third a:focus {
+  background: yellow;
+}
+
+#third a:hover {     
+  background: orange;
+}
+
+#third a:active {
+  background: red;
+  color: white;
+}
